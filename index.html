@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Dicee</title>
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="warmUp()"">
+  <!-- Title & Outcome  Section -->
+  <div class="container">
+    <h1 id="result">Dicee</h1>
+
+    <!-- Game Section -->
+    <div class="roller">
+      <button type="button" name="button" onclick="playNow()">Click to play!</button>
+    </div>
+
+    <div class="dice">
+      <h2 id="player1Text">Player 1</h2>
+      <img src="images/dice6.png" alt="Player 1 dice" id="player1">
+    </div>
+
+    <div class="dice">
+      <h2 id="player2Text">Player 2</h2>
+      <img src="images/dice6.png" alt="Player 2 dice" id="player2">
+    </div>
+
+<h3 id="snakes">🐍 Snake Eyes!! 🐍</h3>
+
+  </div>
+
+  <footer>www 🎲App Brewery 🎲com</footer>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

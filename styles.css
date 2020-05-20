@@ -1,0 +1,55 @@
+body {
+  color: #4ECCA3;
+  background-color: #393E46;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  color: white;
+}
+
+h1 {
+  font-size: 8rem;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  margin: 30px auto;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+button {
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  background-color: inherit;
+  font-style: italic;
+  text-decoration-line: underline;
+  border: 0;
+  /* text-decoration-style: double; */
+}
+.dice {
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+.roller {
+  display: block;
+  text-align: center;
+
+}
+
+#snakes {
+  font-size: 6rem;
+  color: #232931;
+  position: absolute;
+  transform: rotate(-30deg);
+  top: 440px;
+  left: 400px;
+  visibility: hidden;
+}
